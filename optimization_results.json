@@ -1,0 +1,18 @@
+{
+  "method": "Bayesian Optimization (scikit-optimize)",
+  "best_parameters": {
+    "x": -1.5143857882543383,
+    "y": -2.907710386735248
+  },
+  "best_objective_value": -1.0249788144489347,
+  "total_evaluations": 30,
+  "optimization_settings": {
+    "n_calls": 50,
+    "n_initial_points": 10,
+    "acquisition_function": "EI"
+  },
+  "visualization": {
+    "gif_animation": "bayesian_optimization_search.gif",
+    "description": "GIF shows the search path on contour plot"
+  }
+}
