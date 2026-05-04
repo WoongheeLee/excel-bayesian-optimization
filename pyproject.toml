@@ -1,0 +1,13 @@
+[project]
+name = "excel-bayesian-optimization"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "scikit-optimize>=0.10.2",
+    "tqdm>=4.67.3",
+    "xlwings>=0.35.2",
+]

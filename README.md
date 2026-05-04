@@ -11,15 +11,17 @@ Excel의 기존 수식/VBA 자산을 활용한 베이즈 최적화 자동화 예
 
 ## 요구사항
 
+[uv](https://docs.astral.sh/uv/) 기반. Python 3.11+.
+
 ```bash
-pip install xlwings matplotlib numpy scikit-optimize tqdm
+uv sync
 ```
 
 ## 사용법
 
 1. **Jupyter 노트북 실행**
    ```bash
-   jupyter notebook excel-bayesian-optimization-tutorial.ipynb
+   uv run jupyter notebook excel-bayesian-optimization-tutorial.ipynb
    ```
 
 2. **Excel 파일 자동 생성**
